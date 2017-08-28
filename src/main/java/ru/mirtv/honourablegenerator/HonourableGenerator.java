@@ -1,6 +1,8 @@
 /* This program allow to merge two files - .pptx (PowerPoint) template and
  * .xslx list of values. Program will replace custom placeholder in template  
  * and generate new file filled with the values from list.
+ * Template must contain textboxes with text: "ФИО", "должность", "причина".
+ * Excel file must contain 3 columns without header.
  */
 package ru.mirtv.honourablegenerator;
 
